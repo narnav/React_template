@@ -1,20 +1,16 @@
 import React from "react";
-
+import { Outlet, Link } from "react-router-dom";
 const MyNav = () => {
   return (
     <div>
-      <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-        <div class="container-fluid">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" href="#">
-                Active
-              </a>
+      <nav className="navbar navbar-expand-sm bg-dark navbar-dark">
+        <div className="container-fluid">
+          <ul className="navbar-nav">
+            <li className="nav-item">
+              <Link to="/waga">waga</Link> |{" "}
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">
-                Link
-              </a>
+              <Link to="/baga">baga</Link> |{" "}
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">

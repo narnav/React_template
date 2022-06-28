@@ -1,11 +1,11 @@
 import React from "react";
-
+import { Outlet, Link } from "react-router-dom";
 const Right = () => {
   return (
     <div class="col-sm-8">
       <h2>TITLE HEADING</h2>
       <h5>Title description, Dec 7, 2020</h5>
-      <div class="fakeimg">Fake Image</div>
+      <Outlet />
       <p>Some text..</p>
       <p>
         Sunt in culpa qui officia deserunt mollit anim id est laborum
